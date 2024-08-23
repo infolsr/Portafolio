@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio de Proyectos GITHUB</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Custom CSS -->
@@ -37,6 +37,24 @@
 
         .nav-link:hover {
             color: #ddd !important;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-body {
+            flex: 1;
+            /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+        }
+
+        .card-footer {
+            background-color: #f8f9fa;
+            /* Opcional: color de fondo para el pie de la tarjeta */
+            border-top: 1px solid #dee2e6;
+            /* Opcional: borde superior para separar del cuerpo de la tarjeta */
         }
     </style>
 </head>
@@ -96,7 +114,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./assets/img/perfil.jpg" alt="Foto de perfil" class="img-fluid rounded-circle" style="width: 450px;" >
+                    <img src="./assets/img/perfil.jpg" alt="Foto de perfil" class="img-fluid rounded-circle"
+                        style="width: 450px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center">
                     <h2>Acerca de mí</h2>
@@ -110,7 +129,8 @@
                         Estoy siempre en busca de nuevos desafíos y oportunidades para aprender y crecer
                         profesionalmente.
                     </p>
-                    <a id="linkedin" href="https://www.linkedin.com/in/luisedgardogonzalezcastro" target="_blank"> <img src="./assets/img/iconLinkedin.png" alt="ícono de linkedin" style="width: 50px;" ></a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/luisedgardogonzalezcastro" target="_blank"> <img
+                            src="./assets/img/iconLinkedin.png" alt="ícono de linkedin" style="width: 50px;"></a>
                 </div>
             </div>
         </div>
@@ -121,38 +141,85 @@
             <h2 class="text-center">Proyectos</h2>
             <div class="row">
                 <!-- Proyecto 1 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
                         <img src="./assets/img/aeoviaExpress.png" class="card-img-top" alt="Proyecto 1">
                         <div class="card-body">
                             <h5 class="card-title">Proyecto Aerovia Express</h5>
-                            <p class="card-text">Página web para linea aerea, desarrollada con HTML5, Boostrap, CSS.
-                                Diseño responsitivo</p>
+                            <p class="card-text">Página web para línea aérea, desarrollada con HTML5, Bootstrap, CSS.
+                                Diseño responsivo</p>
+                        </div>
+                        <div class="card-footer text-center">
                             <a href="#" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Proyecto 2 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
                         <img src="./assets/img/Gatitos.png" class="card-img-top" alt="Proyecto 2">
                         <div class="card-body">
                             <h5 class="card-title">Gatitos</h5>
-                            <p class="card-text">Proyecto desarrollado en clases para mostrar imagenes de gatitos con
-                                diseño responsitivo</p>
+                            <p class="card-text">Proyecto desarrollado en clases para mostrar imágenes de gatitos con
+                                diseño responsivo</p>
+                        </div>
+                        <div class="card-footer text-center">
                             <a href="#" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 </div>
                 <!-- Proyecto 3 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
                         <img src="./assets/img/Dashboard.png" class="card-img-top" alt="Proyecto 3">
                         <div class="card-body">
                             <h5 class="card-title">Informe en PowerBI</h5>
-                            <p class="card-text">Desarrollo de informe interactivo en power bi, incluye metricas, DAX,
-                                Etc.</p>
+                            <p class="card-text">Desarrollo de informe interactivo en Power BI, incluye métricas, DAX,
+                                etc.</p>
+                        </div>
+                        <div class="card-footer text-center">
                             <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
+                        <img src="./assets/img/MicroServicios.png" class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">MicroServicios</h5>
+                            <p class="card-text">Desarrollo de API con enfoque en MicroServicios, desarrollo en C#
+                                etc.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://github.com/infolsr/TiendaServicios.git" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
+                        <img src="./assets/img/PostituloBI.png" class="card-img-top" alt="Proyecto 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Capacitaciones</h5>
+                            <p class="card-text">Diploma de postítulo en Inteligencia de Negocios, impartido por el Departamento de Ingeniería Industrial de la Facultad de Ciencias
+                                Físicas y Matemáticas de la Universidad de Chile.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://www.linkedin.com/in/luisedgardogonzalezcastro/" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card mb-4 w-100">
+                        <img src="./assets/img/PostituloBI.png" class="card-img-top" alt="Proyecto 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Capacitaciones</h5>
+                            <p class="card-text">DBA SQLServer</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://www.linkedin.com/in/luisedgardogonzalezcastro/" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
                 </div>

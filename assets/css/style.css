@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex: 1; /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+}
+
+.card-footer {
+    background-color: #f8f9fa; /* Opcional: color de fondo para el pie de la tarjeta */
+    border-top: 1px solid #dee2e6; /* Opcional: borde superior para separar del cuerpo de la tarjeta */
+}
