@@ -1,7 +1,8 @@
 
     // Busca formulario y boton
-    const form = document.querySelector('form');
-    const submitButton = document.querySelector('button[type="submit"]');
+    const form = document.getElementById('enviando')
+    const submitButton = document.querySelector('#contact button[type="submit"]');
+
 
     form.addEventListener('submit', function(event) {
         // Previene el comportamiento por defecto del formulario

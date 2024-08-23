@@ -61,6 +61,9 @@
                         <a class="nav-link" href="#projects">Projectos</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
@@ -93,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./assets/img/perfil.jpg" alt="Foto de perfil" class="img-fluid rounded-circle">
+                    <img src="./assets/img/perfil.jpg" alt="Foto de perfil" class="img-fluid rounded-circle" style="width: 450px;" >
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center">
                     <h2>Acerca de mí</h2>
@@ -107,6 +110,7 @@
                         Estoy siempre en busca de nuevos desafíos y oportunidades para aprender y crecer
                         profesionalmente.
                     </p>
+                    <a id="linkedin" href="https://www.linkedin.com/in/luisedgardogonzalezcastro" target="_blank"> <img src="/assets/img/iconLinkedin.png" alt="ícono de linkedin" style="width: 50px;" ></a>
                 </div>
             </div>
         </div>
@@ -156,13 +160,64 @@
         </div>
     </section>
 
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>HTML</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>CSS</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>JavaScript</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Bootstrap</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Python</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>SQL</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 100%;" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Sección Contacto -->
     <section id="contact" class="py-5">
         <div class="container">
             <h2 class="text-center">¿Necesitas soporte? Escribeme!!! es Gratis</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <form>
+                    <form id="enviando">
                         <div class="form-group">
                             <label for="name">Nombre</label>
                             <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
@@ -177,7 +232,7 @@
                             <textarea class="form-control" id="message" rows="5"
                                 placeholder="Escribe tu mensaje"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" id="btnFormulario" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
             </div>
